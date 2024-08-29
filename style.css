@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: burlywood;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+background-color: azure;
+min-height: 40vh;
+width: 40vh;
+padding: 3rem;
+border-radius: 20px;
+}
+form{
+    margin: 2rem 0 3rem 0;
+}
+form input,select,button{
+    border: none;
+    width: 100%;
+    outline:none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgrey;
+    font-size: large;
+    padding-left: 10px;
+    height: 2rem;
+    margin: 0.5rem 0 1rem 0 ;
+}
+form p{
+    font-size: larger;
+    
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+.dropdown i{
+
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    /* margin-right: 2rem; */
+}
+.select-continer img{
+    max-width: 2rem;
+}
+.select-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;;
+}
+.select-continer select{
+    font-size: 1rem;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.btn{
+    height: 3rem;
+    background-color: black;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+.ibttn{
+    border: none;
+    background-color: azure;
+    color: black;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
